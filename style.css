@@ -1,11 +1,15 @@
+
+
 #container{
      display: flex;
      flex-direction: column;
      flex-wrap: wrap;
-    width: 30vw;
-    position: fixed;
-    top: 20%;
-    left: 30%;
+    width: 300px;
+    /* position: fixed; */
+    /* top: 20%; */
+    /* left: 30%; */
+    margin: auto;
+    margin-top: 50px;
 
 }
 .keyrow{
@@ -36,3 +40,29 @@
 
 
 }
+@media only screen and (max-width:600px) {
+    #container{
+       
+       width: 100vw;
+       height: 100vh;
+       margin: 0;
+      
+   
+   }
+   .keyrow{
+       flex-grow: 1;
+   }
+
+   body{
+       margin:0;
+       padding:0;
+   }
+   
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
