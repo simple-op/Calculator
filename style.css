@@ -1,0 +1,38 @@
+#container{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+    width: 30vw;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+
+}
+.keyrow{
+    display: flex;
+
+}
+
+
+
+.keyrow input{
+    width: 100%;
+    padding: 20px;
+    font-size: xx-large;
+    background-color: lightgrey;
+    color: black;
+}
+
+.key{
+    width:33%;
+    border: solid; 
+    padding: 20px;
+    border-width: 0.5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+
+
+}
