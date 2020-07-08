@@ -25,6 +25,8 @@
     font-size: xx-large;
     background-color: lightgrey;
     color: black;
+    border: none;
+    outline: none;
 }
 
 .key{
@@ -46,16 +48,18 @@
        width: 100vw;
        height: 100vh;
        margin: 0;
+       border: solid;
       
    
    }
    .keyrow{
        flex-grow: 1;
+       font-size: xx-large;
    }
 
    body{
        margin:0;
-       padding:0;
+       padding:10px;
    }
    
 }
