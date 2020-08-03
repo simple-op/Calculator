@@ -1,20 +1,28 @@
 
 
 #container{
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 300px;
     /* position: fixed; */
     /* top: 20%; */
     /* left: 30%; */
     margin: auto;
     margin-top: 50px;
+    font-size: x-large;
+    background: black;
+    box-shadow: 0 0 41px 4px deepskyblue;
+    color: white;
 
 }
 .keyrow{
     display: flex;
 
+}
+
+h1{
+    text-align: center;
 }
 
 
